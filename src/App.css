@@ -1,0 +1,282 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+}
+
+header {
+  color: #fff;
+  background-color: #3b7dc0;
+  padding: 0 15px;
+}
+
+header p {
+  width: 400px;
+  margin: 0 auto;
+}
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+}
+
+header h1 {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  display: inline-block;
+  margin: 0;
+  vertical-align: middle;
+  
+}
+
+a, a:active, a:hover {
+  color: #fff;
+}
+
+.fa {
+  font-size: 22px;
+  transform: translateY(50deg);  
+}
+
+header i {
+  vertical-align: middle;
+  margin-left: 12px;
+}
+
+.container {
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+  /*padding-top: 30px;*/
+}
+
+.display-slider-item {
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.dash-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.dash-container .container {
+  max-width: 1100px;
+}
+
+.dash-wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.add-item {
+  border-radius: 2px;
+  border-top: 3px solid #103D5D;
+  margin-right: 50px;
+  background-color: rgb(237, 237, 237);
+  padding: 60px 18px;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.14), 0 3px 3px -2px rgba(0,0,0,.12), 0 1px 8px 0 rgba(0,0,0,.2);
+  margin-bottom: 34px;  
+  width: 25%;
+  margin-right: auto;
+}
+
+.display-item {
+  width: 100%;
+  margin-left: 50px;
+}
+
+.display-item button {
+  margin-top: 20px;
+  margin-left: auto;
+  display: block;
+}
+
+.add-item form {
+  width: 100%;
+  overflow: hidden;
+}
+
+input, textarea {
+  color: #000;
+  padding: 18px 22px;
+  font-size: 16px;
+  /*margin-bottom: 17px;*/
+  border: 0;
+  display: block;
+  width: 100%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+textarea {
+  height: 200px;
+  resize: vertical;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+input[type="checkbox"] {
+  display: initial;
+  width: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 17px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  position: relative;
+  width: calc(33.33% - 50px);
+  list-style-type: none;
+  margin-right: 50px;
+  background-color: rgb(237, 237, 237);
+  color: #000;
+  margin-bottom: 30px;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.14), 0 3px 3px -2px rgba(0,0,0,.12), 0 1px 8px 0 rgba(0,0,0,.2);
+}
+
+.dash-container ul li {
+  width: calc(50% - 50px);
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+li h3 {
+  background-color: #103D5D;
+  margin: 0;
+  color: #fff;
+  font-weight: 300;
+  padding: 15px;
+}
+
+li p {
+  padding: 15px;
+}
+
+form button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+button {
+  border-radius: 2px;
+  min-width: 88px;
+  background-color: #FA6900;
+  cursor: pointer;
+  border: 0;
+  min-width: 120px;
+  color: #fff;
+  font-size: 14px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+  padding: 10px 6px;
+}
+
+button:disabled {
+  opacity: 0.6;
+}
+
+.user-profile {
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  width: 100px;
+  height: 100px;
+}
+
+.user-profile img {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.profile-img {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 45px;
+  height: 45px;
+}
+
+.profile-img img {
+  border-radius: 50%;
+  max-width: 100%;
+  height: 100%;
+}
+
+.image-preview {
+  width: 100%;
+  height: auto;
+}
+
+.column-2 {
+  width: 50%;
+  float: left;
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.col-1 {
+  left: 25%;
+}
+
+.col-2 {
+  left: 75%;
+}
+
+span.textarea__count {
+  display: block;
+  text-align: right;
+}
+
+.notice-board-empty {
+  height: 94.2vh;
+  background-size: cover!important;
+  position: absolute;
+  width: 100%;
+}
+
+.notice-board-empty:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear,left top,left bottom,from(transparent),to(rgba(0,0,0,.9)));
+  background: -webkit-linear-gradient(transparent,rgba(0,0,0,.9));
+  background: -o-linear-gradient(transparent,rgba(0,0,0,.9));
+  background: linear-gradient(transparent,rgba(0,0,0,.9));
+  bottom: 0;
+  left: 0;
+}
+
+.inner-adjust {
+  width: 80%!important;
+}
